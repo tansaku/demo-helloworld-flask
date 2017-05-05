@@ -3,7 +3,6 @@ app = Flask(__name__)
 import os
 import socket
 
-
 @app.route("/")
 def hello():
     return Response("\n".join(
